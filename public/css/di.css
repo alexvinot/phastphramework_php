@@ -1,0 +1,741 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.42857;
+    color:#333;
+    background-color:#35642e;
+    background:url("../px/tile.jpg") center top no-repeat,url("../px/tile-body.jpg") center center repeat}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img
+{
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+caption, th
+{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after
+{
+    content: '';
+}
+
+.box-no-border {
+    border:none;
+    background:none;
+}
+.bold_name {
+	font-size:14px;
+	font-weight:bold;
+}
+.bold_office {
+	font-size:18px;
+	font-weight:bold;
+}
+
+.cached_div {
+	border:none;
+}
+
+.badred {
+	background-color:#ff9999;
+	padding : 1px;	
+	font-size:14px;
+}
+
+.warnyellow {
+	background-color:#ffff99;
+	padding : 1px;	
+	font-size:14px;
+}
+
+.goodgreen {
+	background-color:#99ff99;
+	padding : 1px;	
+	font-size:14px;
+}
+
+.neutral {
+	background:none;
+	padding : 1px;	
+	font-size:14px;
+}
+
+.phonebig {
+	font-size:24px;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
+
+abbr, acronym {
+    border: 0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+
+body {
+/*    overflow: -moz-scrollbars-vertical;*/
+    text-align: center;
+    background-color: #333333;
+    color: #000000;
+}
+
+p
+{
+    margin-bottom: 8px;
+}
+
+p b
+{
+	color: #555555;
+}
+
+a, a:link, a:visited
+{
+    text-decoration: none;
+    color: #010101; /* 3858A1 */
+}
+
+a:hover
+{
+    color: #437BFB;
+}
+
+h1
+{
+	color: #7D824A;
+	font-size: 17px;
+	font-family: Arial;
+	font-weight: 100;
+}
+
+h2
+{
+	color: #7D824A;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
+h3
+{
+	color: #7D824A;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: 100;
+	margin-bottom: 6px;
+}
+
+h4
+{
+	color: #333333;
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
+ul
+{
+}
+
+ul li
+{
+	margin-left: 10px;
+	padding-bottom: 6px;
+	padding-left: 13px;
+}
+
+#bodyOut
+{
+    overflow: hidden;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#headOut
+{
+    overflow: hidden;
+    position: relative;
+	background-color:#fefefe;
+}
+
+#headTop
+{
+    overflow: hidden;
+}
+
+#headLogo, #headLogo:link, #headLogo:visited
+{
+	text-indent: -1020px;
+	overflow: hidden;
+	cursor: pointer;
+	display: block;
+	height: 110px;
+	width: 280px;
+	float: left;
+	background-image: url(../px/logoMain.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+#headRight
+{
+    overflow: hidden;
+    float: right;
+}
+
+#headLeft
+{
+    overflow: hidden;
+    float: left;
+}
+
+#headRight .scCycle
+{
+    overflow: hidden;
+    display: none;
+}
+
+#headSubMen
+{
+    overflow: hidden;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #010101; /* 7d824a */
+	font-size: 10px;
+	font-weight: 700;
+	font-family: Arial;
+	letter-spacing: 3px;
+	/* text-transform: uppercase; */
+	/* background-image:url(../px/pattern-brushed-aluminum.jpg); */
+}
+
+#headSubMen a, #headSubMen a:link, #headSubMen a:visited
+{
+    overflow: hidden;
+    color: #010101; /* 7d824a */
+	font-size: 10px;
+	font-weight: 700;
+	font-family: Arial;
+	letter-spacing: 1px;
+	/* text-transform: uppercase; */
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#headSubMen a:hover
+{
+    color: #000000;
+    background-color: #D9E021;
+}
+
+.hilite_headsubmen {
+    color: #000000;
+    background-color: #D9E021;
+}
+
+#headMen
+{
+    overflow: hidden;
+    height: 36px;
+	background-repeat: repeat-x;
+	background-position: 0 -20px;
+	position: relative;
+}
+
+#headMen a, #headMen a:link, #headMen a:visited
+{
+    overflow: hidden;
+    display: block;
+    height: 28px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+	font-weight: 700;
+	font-family: Arial;
+	color: #010101; /* #a9ceff; /*  old av-6-28-2010 3b69a6 a9ceff */
+	/* text-transform: uppercase; */
+    position: relative;
+	background-repeat: no-repeat;
+	background-position: 0 -82px;
+    float: left;
+	line-height: 135%;
+	/* text-shadow:#3b69a6 -1px -1px; /*  av-6-28-2010 3b69a6  */
+	
+}
+
+/*  av-6-28-2010 3b69a6  */
+#headMen a:hover
+{
+	color: #010101;
+	background-color: #D9E021; /* #FFFFFF; */
+}
+
+#headMen a span, #headMen a span:link, #headMen a span:visited
+{
+    overflow: hidden;
+    display: block;
+    height: 28px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+	font-weight: 700;
+	font-family: Arial;
+	color: #010101; /* #a9ceff; */
+	/* text-transform: uppercase; */
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	line-height: 135%;
+}
+
+#headMen a.sc_up, #headMen a.sc_up:link, #headMen a.sc_up:visited
+{
+	color: #010101;
+	background-color: #8DC245; /* #FFFFFF;  8DC245*/
+	background-image:url('../px/menu_btn_green.gif');
+}
+/* av-07-01-2010 had to change the " span" at end of each to make work for each title menu bar link to hi lite when on right page */
+
+#headMen a.sc_up span, #headMen a.sc_up:link span, #headMen a.sc_up:visited span
+{
+	color: #010101; /* #FFFFFF;  546780  8DC245 */
+	background-color:#8DC245; /* */
+	background-image:url('../px/menu_btn_green.gif');
+}
+
+#headMen a:hover span
+{
+	color: #010101; /* #FFFFFF; */
+	background-color: #8DC245;  /* */
+	background-image:url('../px/menu_btn_green.gif');
+}
+
+#headMen a:first-child
+{
+	background-position: -1020px 0;
+}
+
+#contOut
+{
+    overflow: hidden;
+	position: relative;
+	background-color: #FFFFFF;
+}
+
+#contOut_appt
+{
+    overflow: hidden;
+	position: relative;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+}
+
+.contIn
+{
+    overflow: hidden;
+    padding: 6px;
+	min-height: 200px;
+	_height: 1%;
+	border: solid 1px #d2c6a6;
+/*	background-image:url(../px/pattern-brushed-aluminum.jpg); */
+	background-color:#fefefe;
+}
+
+.startdate {
+    padding:2px; 
+    padding-left:4px; 
+    padding-right:4px;
+}
+
+.tablemoreroom td {
+    padding: 4px;
+}
+.tablemoreroom input[type="submit"]{
+    padding: 6px;
+}
+
+div.controlset label, div.controlset input, div.controlset div { 
+    display: inline; 
+    float: left;
+}
+
+div.controlset label { 
+    margin-right:10px;
+}
+
+.officelabel {
+    font-family:arial; 
+    font-size:12px; 
+    font-weight:bold;
+}
+
+.gauge_label {
+    margin-top: 10px;
+    font-family:arial; 
+    font-size:16px; 
+    font-weight:bold; 
+    text-align:center;
+}
+
+.dash_row {
+    border:1px solid #333333;
+    background: white;
+    box-shadow:2px 2px 2px grey;
+    height:252px;
+    width:100%;
+    float:none;
+    clear:both;
+    display: block;
+    padding:4px;
+    margin-bottom: 6px;
+}
+.office_cell {
+    height:100%;
+    width:120px;
+    float: left;
+    padding:6px;
+/*    border:2px dotted green;*/
+}
+
+.office_cell h2 {
+    color:black;
+}
+
+.gauges {
+    height:100%;
+    width:298px;
+    float: left;
+    border-collapse: collapse;
+/*    border:1px solid red;*/
+}
+
+.gauges table tr td {
+    vertical-align: top;
+}
+.day_by_day {
+    height:100%;
+    width:564px;
+    float: left;
+/*    border:1px dashed blue;*/
+}
+
+.day_by_day table tbody tr td {
+    width:108px;
+    padding:2px;
+}
+
+#day_by_day_legend {
+    position:absolute; 
+    left:544px; 
+    top:38px;
+    height:auto; 
+    z-index:9998; 
+    padding:2px;
+}
+
+#descrip_wrap{
+    position:absolute; 
+    left:416px; 
+    top:0px; 
+    height:auto; 
+    z-index:9999; 
+    padding:2px;
+}
+
+
+#day_by_day_legend table tbody tr td {
+    width:108px;
+    padding:2px;
+    text-align: center;
+}
+
+.dial_div {
+    border:1px solid #333333;
+    overflow:hide;
+}
+.h2 {
+    color:black;
+}
+
+#plus_minus {
+/*width: 22px;*/
+overflow: hidden;
+height: 20px;
+position: relative;
+}
+
+.plus_minus_open {
+position: absolute;
+left: 0px;
+}
+.plus_minus_closed {
+position: absolute;
+left: -22px;
+}
+
+.daybox {
+    border:1px black solid; 
+    margin:0px; 
+    padding:3px; 
+    font-size:larger; 
+    width:128px; 
+    height:264px;
+    overflow:hidden;
+}
+
+.daybox span, .neutral {
+    font-size: 16px;
+}
+
+.print_preview_blank {
+    background:none; 
+    background-image:none; 
+    border:1px white solid; 
+    background-color:white;
+}
+
+.debug_small { 
+    height:32px; 
+    width:32px; 
+    overflow:hidden;
+}
+
+.debug_big { 
+    height:300px; 
+    width:400px; 
+    overflow:auto;
+}
+    
+.debug_redborder {
+    border:1px red dashed;
+}
+
+.contacts_bio {
+    height:100px; 
+    margin-left:10px; 
+    margin-top:10px; 
+    float:left; 
+    width:190px; 
+    overflow:auto; 
+    font-size: 10px; 
+    color:#646464;
+}
+
+.contacts_box {
+    margin-left:15px; 
+    padding-left:10px; 
+    margin-top:16px; 
+    float:left; 
+    height:48px; 
+    border:1px solid #e9eaed; 
+    width:966px;
+}
+
+.contacts_info {
+    margin-left:15px; 
+    margin-top:12px; 
+    float:left; 
+    height:120px; 
+    border:1px solid #e9eaed; 
+    width:480px; 
+    background:#FFF;
+}
+
+.contacts_photo {
+    width:100px; 
+    height:110px; 
+    overflow: hidden; 
+    margin-top:-5px; 
+    float:left; 
+    margin-left:-5px; 
+    box-shadow: 3px 3px 3px #888888;
+}
+
+.contacts_photo img {
+    width:120px;
+    margin-left:-15px; 
+    margin-top:-5px;
+}
+
+.big_page_div {
+    width:999px; 
+    min-height:800px; 
+    height:auto; 
+    overflow:auto; 
+    position: relative;
+}
+
+#fixed_table td {
+    padding:3px;
+    margin:2px;
+    background-color:#FEFEFE;
+}
+
+.fixed_table {
+    border-collapse:collapse;
+    float:left;
+}
+
+.fixed_table td {
+    padding:3px;
+    margin:2px;
+    background-color:#FEFEFE;
+    text-align:right;
+}
+
+.fixed_table th {
+    text-transform:capitalize;
+    font-weight:bold;
+    text-align:right;
+    background-color:#FEFEFE;
+    padding:3px;
+    margin:2px;
+}
+
+.detailsdiv_style {
+    height:600px; 
+    overflow:auto; 
+    border:1px black solid; 
+    position:relative; 
+    float:left; 
+    margin-left:4px; 
+    padding:4px; 
+    background-color:#fefefe;
+}
+
+.hilite2 td {
+    background-color:#FC9;
+    background:#FC9;
+}
+
+.marg_rite td{
+        padding:4px;
+        text-align:right;
+}
+
+.marg_center th {
+    padding:2px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+.table_box {
+    padding:4px;
+}
+.table_box td {
+    padding:4px;
+    text-align:right;
+}
+.table_box th {
+    padding:4px;
+    text-transform:capitalize;
+    font-weight:bold;
+    text-align:right;
+    height:20px;
+}
+
+.bigboldun {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:underline;
+    font-size:18px;
+}
+.boldun {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:underline;
+    text-transform:uppercase;
+    font-size:16px;
+}
+.curdata {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:underline;
+    font-size:16px;
+}
+.provname {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.larger_labels {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    font-size:16px;
+}
+
+.marginroom {
+    margin:4px;
+    padding:4px;
+}
+
+.small_window {
+    overflow: auto;
+    border: 1px solid gray;
+    height: 120px;
+}
+
+.tableviewer td {
+    border:1px solid gray;
+    padding:4px;
+}
+.tableviewer th {
+    font-weight:bold;
+    padding:4px;
+}
+
+.tableviewer tr:nth-child(even) {
+    background-color: #fefefe;
+}
